@@ -97,6 +97,7 @@ body {
 
 /* ==== Home Page ==== */
 .home {
+  margin-top: 10px;
   background-image: url('../img/home.png');
   display: flex;
   flex-direction: column;
@@ -195,7 +196,7 @@ body {
 }
 
 .arab {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 1.8;
   max-width: 280px;
 }
@@ -215,6 +216,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
   gap: 24px;
   display: flex;
   min-height: 100vh;
