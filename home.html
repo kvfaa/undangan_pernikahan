@@ -99,11 +99,18 @@
   function copyRekening() {
     const rekening = "0112886379";
     navigator.clipboard.writeText(rekening).then(() => {
-      alert("Nomor rekening disalin!");
+      alert("Nomor rekening BCA disalin!");
     });
   }
 
-    const audio = document.querySelector('audio');
+  function copyToClipboard(elementId) {
+    const text = document.getElementById(elementId).innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Nomor DANA disalin!");
+    });
+  }
+
+  const audio = document.querySelector('audio');
 
   document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
@@ -112,8 +119,8 @@
       audio.play().catch(() => {});
     }
   });
-  
 </script>
+
 
 </body>
 </html>
