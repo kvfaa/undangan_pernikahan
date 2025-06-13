@@ -41,6 +41,8 @@ body {
 
 /* ==== Landing Page ==== */
 .landing {
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-image: url('../img/landing.png');
   display: flex;
   flex-direction: column;
