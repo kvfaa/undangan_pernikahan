@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Aji & Kiky</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&family=GFS+Didot&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="home">
+    <div class="bismillah">
+      بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
+    </div>
+
+    <div class="title">
+      Undangan Pernikahan
+    </div>
+
+    <div class="nama-lengkap">Aji Pamungkas</div>
+    <div class="dan">&</div>
+    <div class="nama-lengkap">Rizky Kartika Septihany</div>
+
+    <div class="info">
+      Yang Insyaallah akan dilaksanakan pada:
+      <div class="icon-text">
+        <i class="fa-regular fa-calendar"></i>
+        <span>Hari: Sabtu, 21 Juni 2025</span>
+      </div>
+      <div class="icon-text">
+        <i class="fa-regular fa-clock"></i>
+        <span>Waktu: 09.00 WIB</span>
+      </div>
+      <div class="icon-text">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Tempat: Jl. Gading No. 37, Klojen, Kota Malang</span>
+      </div>
+    </div>
+
+    <div class="ucapan">
+      Atas kehadiran dan<br/>
+      doa restunya, kami ucapkan
+    </div>
+    <div class="terima-kasih">Terima Kasih</div>
+  </div>
+
+  <section class="doa">
+  <div class="container-doa">
+    <h2 class="judul-doa">Doa Pernikahan</h2>
+    <hr style="border: 1px solid #000; width: 80%; margin: 20px auto;">
+    <p class="arab">
+      بَارَكَ اللهُ لَكَ وَجَمَعَ بَيْنَكُمَا فِيْ خَيْرٍ. بَارَكَ اللهُ لِكُلِّ وَاحِدٍ مِنْكُمَا فِيْ صَاحِبِهِ وَجَمَعَ بَيْنَكُمَا فِيْ خَيْرٍ
+    </p>
+    <hr style="border: 1px solid #000; width: 90%; margin: 20px auto;">
+    <p class="arti">
+      “Semoga Allah memberkahimu dan memberkahi pernikahanmu, serta semoga Allah mempersatukan kalian berdua dalam kebaikan. Berkah Allah (semoga tercurahkan) bagi masing-masing kalian berdua atas pasangannya, dan (semoga) Allah mengumpulkan kalian berdua dalam kebaikan”. [HR. Bukhari, Muslim, Tirmidzi].”
+    </p>
+  </div>
+  </section>
+  
+<section class="mempelai">
+  <div class="container-mempelai">
+    <div class="title-gift">Wedding Gift</div>
+    <p class="info">
+      Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Dan jika memberi ungkapan adalah tanda kasih Anda, Anda dapat memberi kado secara cashless.
+    </p>
+    
+    <div class="gift-wrapper">
+      <div class="wedding-gift-card">
+        <img src="img/logo-bca.png" alt="BCA Logo" class="bank-logo" />
+        <div class="rekening">0112886379</div>
+        <div class="nama-rekening">A/n. Rizky Kartika Septihanny</div>
+        <button class="copy-btn" onclick="copyRekening()"> 
+          <i class="fa-regular fa-copy"></i> Salin / Copy
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  function copyRekening() {
+    const rekening = "0112886379";
+    navigator.clipboard.writeText(rekening).then(() => {
+      alert("Nomor rekening disalin!");
+    });
+  }
+</script>
+
+</body>
+</html>

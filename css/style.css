@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Bickham Script Pro';
+  src: url('../fonts/BickhamScriptPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ==== Base Styling === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'GFS Didot', serif;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* ==== Landing Page ==== */
+.landing {
+  background-image: url('../img/landing.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #5e5e5e;
+}
+
+.nama-singkat {
+  font-size: 110px;
+  font-family: 'Bickham Script Pro', cursive;
+  margin: 0;
+  padding: 10px 0;
+  line-height: 1;
+}
+
+.dan-landing {
+  font-family: 'Bickham Script Pro', cursive;
+  font-size: 110px;
+  margin: -5px 0;
+  line-height: 1;
+  transform: translateY(-5px);
+}
+
+.tanggal {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #7a7a7a;
+}
+
+.btn {
+  background: #EBD0C9;
+  font-size: 20px;
+  width: 260px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e4baba;
+}
+
+/* ==== Home Page ==== */
+.home {
+  background-image: url('../img/home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bismillah {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+
+.title {
+  margin: 90px 0 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nama-lengkap {
+  font-size: 48px;
+  font-family: 'Bickham Script Pro', cursive;
+  margin: 0;
+  padding: 10px 0;
+  line-height: 1;
+}
+
+.dan {
+  font-family: 'Bickham Script Pro', cursive;
+  font-size: 36px;
+  margin: -5px 0;
+  line-height: 1;
+  transform: translateY(-5px);
+}
+
+.info {
+  max-width: 300px;
+  font-size: 16px;
+  margin: 40px 0;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.icon-text i {
+  font-size: 18px;
+  color: #a05252;
+}
+
+.ucapan {
+  margin-top: 25px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.terima-kasih {
+  font-family: 'Bickham Script Pro', cursive;
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+/* ==== Doa Section ==== */
+.doa {
+  background-image: url('../img/doa.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-doa {
+  max-width: 480px;
+  text-align: center;
+  color: #333;
+}
+
+.judul-doa {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.arab {
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  max-width: 280px;
+}
+
+.arti {
+  max-width: 280px;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* ==== Gift Section ==== */
+.mempelai {
+  background-image: url('../img/gift.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-color: #fefefe;
+
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-gift {
+  margin: 90px 0 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gift-wrapper {
+  max-width: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px;
+  margin: 30px auto 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.wedding-gift-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bank-logo {
+  width: 80px;
+  margin-bottom: 12px;
+}
+
+.rekening {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.nama-rekening {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.copy-btn {
+  background-color: #f1d8d2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #000;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s;
+}
+
+.copy-btn:hover {
+  background-color: #e4baba;
+}
