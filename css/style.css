@@ -29,7 +29,7 @@ body {
 .mempelai {
   width: 100%;
   max-width: 380px;
-  margin: 40px auto 0;
+  margin: 20px auto 0;
   padding: 40px 20px;
   border-radius: 20px;
   overflow: hidden;
@@ -229,7 +229,7 @@ body {
 .title-gift {
   font-size: 18px;
   font-weight: bold;
-  margin: 80px 0 20px;
+  margin: 110px 0 20px;
 }
 
 .gift-wrapper {
@@ -251,6 +251,7 @@ body {
 
 .bank-logo {
   width: 80px;
+  margin-bottom: 20px;
 }
 
 .rekening {
@@ -264,6 +265,7 @@ body {
 
 .copy-btn {
   background-color: #f1d8d2;
+  margin-bottom: 30px;
   border: none;
   padding: 10px 20px;
   border-radius: 30px;
