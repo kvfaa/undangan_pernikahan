@@ -98,11 +98,13 @@ body {
 /* ==== Home Page ==== */
 .home {
   background-image: url('../img/home.png');
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  display: flex;
+  justify-content: center;
   min-height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 90px;
 }
 
 .bismillah {
@@ -120,7 +122,7 @@ body {
   font-size: 48px;
   font-family: 'Bickham Script Pro', cursive;
   margin: 0;
-  padding: 8px 0;
+  padding: 5px 0;
   line-height: 1;
 }
 
@@ -133,7 +135,7 @@ body {
 }
 
 .info {
-  max-width: 300px;
+  max-width: 350px;
   font-size: 16px;
   margin: 32px 0;
 }
@@ -143,7 +145,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px 16px;
+  gap: 8px 8px;
   font-size: 14px;
   margin: 20px 0;
 }
