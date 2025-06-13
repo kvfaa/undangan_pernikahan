@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Bickham Script Pro';
-  src: url('../fonts/Bickham\ Script\ Pro\ Regular.ttf.ttf') format('truetype');
+  src: url('../fonts/Bickham\\ Script\\ Pro\\ Regular.ttf.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,24 +22,32 @@ body {
   min-height: 100vh;
 }
 
-/* ==== Landing Page ==== */
-.landing {
-  background-image: url('../img/landing.png');
+/* ==== Shared Section Styles ==== */
+.landing,
+.home,
+.doa,
+.mempelai {
+  width: 100%;
+  max-width: 380px;
+  margin: 40px auto 0;
+  padding: 40px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+}
 
-  width: 100%;
-  max-width: 380px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  min-height: 100vh;
-
+/* ==== Landing Page ==== */
+.landing {
+  background-image: url('../img/landing.png');
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
+  min-height: 100vh;
 }
 
 .landing h2 {
@@ -90,20 +98,11 @@ body {
 /* ==== Home Page ==== */
 .home {
   background-image: url('../img/home.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-
-  width: 100%;
-  max-width: 380px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  min-height: 100vh;
-
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  display: flex;
+  min-height: 100vh;
 }
 
 .bismillah {
@@ -169,26 +168,16 @@ body {
 /* ==== Doa Section ==== */
 .doa {
   background-image: url('../img/doa.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-
-  width: 100%;
-  max-width: 380px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  min-height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .container-doa {
   max-width: 480px;
   text-align: center;
   color: #333;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,6 +185,7 @@ body {
 }
 
 .judul-doa {
+  margin-top: 80px;
   font-size: 24px;
   font-weight: bold;
 }
@@ -207,6 +197,7 @@ body {
 }
 
 .arti {
+  margin-bottom: 100px;
   font-size: 14px;
   font-style: italic;
   line-height: 1.6;
@@ -216,22 +207,13 @@ body {
 /* ==== Gift Section ==== */
 .mempelai {
   background-image: url('../img/gift.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
   background-color: #fefefe;
-
-  width: 100%;
-  max-width: 380px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  min-height: 100vh;
-
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 24px;
+  display: flex;
+  min-height: 100vh;
 }
 
 .title-gift {
