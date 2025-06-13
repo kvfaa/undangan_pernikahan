@@ -48,11 +48,13 @@ body {
   align-items: center;
   gap: 16px;
   min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 75px;
 }
 
 .landing h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
   color: #5e5e5e;
 }
@@ -82,12 +84,12 @@ body {
 .btn {
   background: #EBD0C9;
   font-size: 20px;
-  width: 260px;
+  width: 230px;
   padding: 12px 24px;
   border-radius: 30px;
   color: #000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: medium;
   transition: 0.3s;
 }
 
