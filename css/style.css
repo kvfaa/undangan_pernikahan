@@ -1,15 +1,16 @@
+/* ==== Global Reset & Fonts ==== */
 * {
   box-sizing: border-box;
 }
 
 @font-face {
   font-family: 'Bickham Script Pro';
-  src: url('../fonts/BickhamScriptPro.ttf') format('truetype');
+  src: url('../fonts/Bickham\ Script\ Pro\ Regular.ttf.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-/* ==== Base Styling === */
+/* ==== Base Styling ==== */
 body {
   margin: 0;
   padding: 0;
@@ -31,19 +32,20 @@ body {
   width: 100%;
   max-width: 380px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 20px;
   min-height: 100vh;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 }
 
 .landing h2 {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin: 0;
   color: #5e5e5e;
 }
 
@@ -51,21 +53,21 @@ body {
   font-size: 110px;
   font-family: 'Bickham Script Pro', cursive;
   margin: 0;
-  padding: 10px 0;
+  padding: 8px 0;
   line-height: 1;
 }
 
 .dan-landing {
   font-family: 'Bickham Script Pro', cursive;
   font-size: 110px;
-  margin: -5px 0;
+  margin: -4px 0 8px;
   line-height: 1;
   transform: translateY(-5px);
 }
 
 .tanggal {
   font-size: 18px;
-  margin: 20px 0;
+  margin: 16px 0;
   color: #7a7a7a;
 }
 
@@ -101,31 +103,32 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 24px;
 }
 
 .bismillah {
   font-size: 30px;
-  margin: 20px 0 10px;
+  margin: 16px 0 8px;
 }
 
 .title {
-  margin: 90px 0 30px;
   font-size: 18px;
   font-weight: bold;
+  margin: 80px 0 20px;
 }
 
 .nama-lengkap {
   font-size: 48px;
   font-family: 'Bickham Script Pro', cursive;
   margin: 0;
-  padding: 10px 0;
+  padding: 8px 0;
   line-height: 1;
 }
 
 .dan {
   font-family: 'Bickham Script Pro', cursive;
   font-size: 36px;
-  margin: -5px 0;
+  margin: -4px 0 10px;
   line-height: 1;
   transform: translateY(-5px);
 }
@@ -133,14 +136,15 @@ body {
 .info {
   max-width: 300px;
   font-size: 16px;
-  margin: 40px 0;
+  margin: 32px 0;
 }
 
 .icon-text {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 10px 16px;
   font-size: 14px;
   margin: 20px 0;
 }
@@ -151,7 +155,7 @@ body {
 }
 
 .ucapan {
-  margin-top: 25px;
+  margin-top: 30px;
   font-size: 16px;
   font-style: italic;
 }
@@ -184,26 +188,29 @@ body {
   max-width: 480px;
   text-align: center;
   color: #333;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .judul-doa {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .arab {
   font-size: 24px;
-  margin-bottom: 20px;
   line-height: 1.8;
   max-width: 280px;
 }
 
 .arti {
-  max-width: 280px;
   font-size: 14px;
   font-style: italic;
   line-height: 1.6;
+  max-width: 280px;
 }
 
 /* ==== Gift Section ==== */
@@ -224,12 +231,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 24px;
 }
 
 .title-gift {
-  margin: 90px 0 30px;
   font-size: 18px;
   font-weight: bold;
+  margin: 80px 0 20px;
 }
 
 .gift-wrapper {
@@ -237,31 +245,29 @@ body {
   background-color: #fff;
   border-radius: 20px;
   padding: 30px 20px;
-  margin: 30px auto 0 auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin: 0 auto;
 }
 
 .wedding-gift-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
 }
 
 .bank-logo {
   width: 80px;
-  margin-bottom: 12px;
 }
 
 .rekening {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 4px;
 }
 
 .nama-rekening {
   font-size: 14px;
-  margin-bottom: 16px;
 }
 
 .copy-btn {
